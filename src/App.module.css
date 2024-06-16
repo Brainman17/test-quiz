@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 25vh 25vw;
+}
+
+.titleContainer {
+    display: flex;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.tabs {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.tab {
+    width: 50px;
+    height: 10px;
+    background-color: #1a1a1a;
+    border-radius: 3px;
+}
+
+.active {
+    background-color: #ff4d4f;
+}
